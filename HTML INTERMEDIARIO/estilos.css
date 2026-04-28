@@ -76,7 +76,7 @@ border-radius: 16px;
 }
 
 h1{
-   background-color: rgb(10, 17, 17);
+   background-color: rgb(239, 241, 241);
 padding: 12px;
 width: 25%;
 border-radius: 16px;
@@ -86,7 +86,7 @@ color: rgb(243, 238, 233);
 font-style: oblique;
 }
 aside{
-color: rgb(7, 0, 0);
+color: rgb(0, 0, 0);
 font-style: oblique;
 }
 footer{
