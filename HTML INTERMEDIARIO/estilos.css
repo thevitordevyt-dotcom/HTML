@@ -10,8 +10,97 @@ font-size: 17px;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 height: 100dvh;
-background-color: rgb(5, 4, 6);
-color: blueviolet;
+background-color: rgb(red, green, blue);
+color: rgb(11, 7, 15);
 width: 100%;
 
 }
+header{
+    background-color: rgb(4, 76, 192);
+    color: darkblue;
+    padding: 24px;
+    border: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+nav{
+background-color: rgb(0, 68, 15);
+text-align: start;
+display: flex;
+justify-content: center;
+gap: 24px;
+padding: 16px;
+}
+nav a{
+color: rgb(182, 188, 190);
+text-decoration: none;
+font-weight: bold;
+
+}
+
+nav a:hover{
+color: antiquewhite;
+font-style: oblique;
+
+}
+
+/* Layout principal */
+main{
+    display: flex;
+    gap: 24px;
+    padding: 50px;
+    background-color: rgb(56, 47, 120);
+}
+/* Lateral */
+aside{
+width: 25%;
+background-color: azure;
+padding: 16px;
+border-radius: 8px;
+}
+/* Conteudo */
+aside{
+    width: 25%;
+    background-color: azure;
+padding: 12px;
+border-radius: 16px;
+}
+/* Conteudo */
+section{
+background-color:azure;
+padding: 12px;
+width: 25%;
+border-radius: 16px;
+}
+}
+h1{
+   background-color: rgb(10, 17, 17);
+padding: 12px;
+width: 25%;
+border-radius: 16px;
+} 
+h1:hover{
+color: rgb(243, 238, 233);
+font-style: oblique;
+}
+aside{
+color: rgb(7, 0, 0);
+font-style: oblique;
+}
+footer{
+background-color: azure;
+color: aquamarine;
+text-align: center;
+padding: 50px;
+position: flex;
+bottom: 10px;
+width: 100%;
+border-radius: 20px;
+}
+footer:hover{
+    color: rgb(4, 3, 1);
+font-style: oblique;
+}
+
